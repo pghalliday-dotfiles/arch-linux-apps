@@ -7,7 +7,7 @@ Installs apps for Arch Linux
 - Download and untar the repo
 
   ```
-  wget -O apps.tgz https://git.io/vwvT5
+  curl -L -o apps.tgz https://git.io/vwvT5
   tar -zxf apps.tgz
   cd arch-linux-apps-master
   ```
