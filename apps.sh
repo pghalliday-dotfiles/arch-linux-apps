@@ -14,19 +14,19 @@ makepkg -si --noconfirm --needed
 cd ..
 
 # install everything else
-yaourt -S --noconfirm vim
-yaourt -S --noconfirm tmux
-yaourt -S --noconfirm openssh
-yaourt -S --noconfirm xorg-server
-yaourt -S --noconfirm xorg-server-utils
-yaourt -S --noconfirm xorg-apps
-yaourt -S --noconfirm xorg-init
-yaourt -S --noconfirm compton
-yaourt -S --noconfirm trayer
-yaourt -S --noconfirm xmonad
-yaourt -S --noconfirm ttf-dejavu
-yaourt -S --noconfirm hsetroot
-yaourt -S --noconfirm dmenu
-yaourt -S --noconfirm xmobar
-yaourt -S --noconfirm xscreensaver
-yaourt -S --noconfirm rxvt-unicode-patched
+yaourt -S --noconfirm --needed vim
+yaourt -S --noconfirm --needed tmux
+yaourt -S --noconfirm --needed openssh
+yaourt -S --noconfirm --needed xorg-server
+yaourt -S --noconfirm --needed xorg-server-utils
+yaourt -S --noconfirm --needed xorg-apps
+yaourt -S --noconfirm --needed xorg-xinit
+yaourt -S --noconfirm --needed compton
+yaourt -S --noconfirm --needed trayer
+yaourt -S --noconfirm --needed xmonad
+yaourt -S --noconfirm --needed ttf-dejavu
+yaourt -S --noconfirm --needed hsetroot
+yaourt -S --noconfirm --needed dmenu
+yaourt -S --noconfirm --needed xmobar
+yaourt -S --noconfirm --needed xscreensaver
+yaourt -S --noconfirm --needed rxvt-unicode-patched
