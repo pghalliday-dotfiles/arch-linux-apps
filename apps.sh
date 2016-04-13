@@ -35,6 +35,7 @@ install xorg-xinit
 install compton
 install trayer
 install xmonad
+install xmonad-contrib
 install ttf-dejavu
 install hsetroot
 install dmenu
