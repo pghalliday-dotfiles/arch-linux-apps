@@ -8,7 +8,7 @@ Installs apps for Arch Linux
 
   ```
   curl -L -o apps.tgz https://git.io/vwvT5
-  tar -zxf apps.tgz
+  tar zxf apps.tgz
   cd arch-linux-apps-master
   ```
 
