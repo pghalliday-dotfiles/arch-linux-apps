@@ -43,3 +43,4 @@ install xmobar
 install xscreensaver
 install rxvt-unicode-patched
 install parcellite
+install scrot
